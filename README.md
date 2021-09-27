@@ -30,6 +30,8 @@ Wi-Fi连接
 # 可能遇到的问题
 如果你使用了显卡延长线接显卡的话 可能遇到设置完BIOS无法点亮的问题 建议先拔下独显设置BIOS后 进入install流程前再安装独立显卡
 
-#预览
+
+
+# 预览
 ![截屏2021-09-27 23 38 50](https://user-images.githubusercontent.com/53895501/134940451-f1f19770-f8aa-4ad0-b0b3-9df9f10618b1.png)
 

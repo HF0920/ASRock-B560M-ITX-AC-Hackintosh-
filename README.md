@@ -35,7 +35,8 @@
 
 
 # 预览
-![截屏2021-09-27 23 38 50](https://user-images.githubusercontent.com/53895501/134940451-f1f19770-f8aa-4ad0-b0b3-9df9f10618b1.png)
+<img width="2560" alt="截屏2021-10-02 11 27 56" src="https://user-images.githubusercontent.com/53895501/135702232-6f585c70-a13b-4090-b098-4f7a81e61b13.png">
+
 
 
 # 更新日志

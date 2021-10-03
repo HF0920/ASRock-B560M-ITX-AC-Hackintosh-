@@ -45,3 +45,11 @@ v1.1 2021.10.2
 * 更新OC引导至7.3 
 * 更改机型为iMac 20,1 
 * 替换 UHD 630 缓冲帧 以实现更好的硬件加速
+
+v1.2 2021.10.3 
+* 更新OC引导至7.4
+* 替换intel蓝牙驱动为BlueToolFixup 使在 Monterey 能够正常工作
+* 添加 macOS Monterey Beta(21A5534d) 支持
+* 添加图形化引导菜单
+* 去除 -v 啰嗦模式
+* ![9BD9872B-F369-4B82-BC18-9CF9FE77BF1F](https://user-images.githubusercontent.com/53895501/135743879-e82f6937-e7e5-44f4-8a5f-4417d5f39063.png)

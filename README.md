@@ -10,7 +10,6 @@
 | 机型  |  iMac 20,1 |
 |  以太网 | Intel I219V|
 | 无线网卡 | AC3168 |
-|---|---|
 
 # 非正常工作
 * 麦克风输入
@@ -52,4 +51,5 @@ v1.2 2021.10.3
 * 添加 macOS Monterey Beta(21A5534d) 支持
 * 添加图形化引导菜单
 * 去除 -v 啰嗦模式
-* ![9BD9872B-F369-4B82-BC18-9CF9FE77BF1F](https://user-images.githubusercontent.com/53895501/135743879-e82f6937-e7e5-44f4-8a5f-4417d5f39063.png)
+* <img width="586" alt="8E3C0FFF-9042-4844-BF89-C5492F67B3BE" src="https://user-images.githubusercontent.com/53895501/135744045-31dc9a0e-5fff-4ebd-b52b-cf401a3ee36f.png">
+

@@ -16,8 +16,7 @@
 *（如果需要用到 隔空投送 接力 等原生功能建议搭配 拆机免驱卡 使用）
 * 自带蓝牙 可以连接蓝牙耳机音响等 但手动关闭后无法打开
 * 需要使用板载Wi-Fi的话可以看看 [这里](https://github.com/OpenIntelWireless/itlwm) 需要根据自己系统来选择
-
-.除此之外 我目前的使用 一切正常
+* 除此之外 我目前的功能使用 一切正常
 
 # Bios 设置
 * Advanced • CPU Configuration • CFG Lock = Disabled

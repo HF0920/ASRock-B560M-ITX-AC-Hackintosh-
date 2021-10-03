@@ -3,12 +3,13 @@
 我的配置信息
 
 |  CPU | Intel i5 10400 |
-|---|---|
 |  GPU | 盈通 5600xt 萌宠 6g  |
+|  主板 | ASRock B560M-ITX/AC |
 |  内存 |  镁光 铂胜 3200 8G * 2   |
 | 机型  |  Macpro7,1 |
 |  以太网 | Intel I219V|
 | 无线网卡 | AC3168 |
+|---|---|
 
 如果你需要使用核心显卡 建议更改机型为 iMac20,1 
 
@@ -52,4 +53,4 @@ v1.2 2021.10.3
 * 添加 macOS Monterey Beta(21A5534d) 支持
 * 添加图形化引导菜单
 * 去除 -v 啰嗦模式
-* ![9BD9872B-F369-4B82-BC18-9CF9FE77BF1F](https://user-images.githubusercontent.com/53895501/135743879-e82f6937-e7e5-44f4-8a5f-4417d5f39063.png)
+![9BD9872B-F369-4B82-BC18-9CF9FE77BF1F](https://user-images.githubusercontent.com/53895501/135743879-e82f6937-e7e5-44f4-8a5f-4417d5f39063.png)

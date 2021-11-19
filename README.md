@@ -48,6 +48,8 @@ v1.2 2021.10.3
 * 替换intel蓝牙驱动为BlueToolFixup 使在 Monterey 能够正常工作
 * 添加 macOS Monterey Beta(21A5534d) 支持
 * 添加图形化引导菜单
-* 去除 -v 啰嗦模式
 * <img width="586" alt="8E3C0FFF-9042-4844-BF89-C5492F67B3BE" src="https://user-images.githubusercontent.com/53895501/135744045-31dc9a0e-5fff-4ebd-b52b-cf401a3ee36f.png">
 
+v1.3 2021.11.19 
+* 更新OC引导至0.75
+* 更新Lilu、AppleALC、WhateverGreen、RestrictEvents驱动为当前最新

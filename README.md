@@ -10,7 +10,7 @@
 | 无线网卡 | BCM94360CS2 |
 | 机箱及延长线 | 超频三蜂鸟2 自带延长线 |
 
-# [EFI下载地址](https://github.com/HF0920/ASRock-B560M-ITX-AC-Hackintosh-/releases)
+# <p align="right">[EFI下载地址](https://github.com/HF0920/ASRock-B560M-ITX-AC-Hackintosh-/releases)</p>
 
 # 非正常工作
 * 麦克风输入

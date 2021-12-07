@@ -55,4 +55,5 @@ v1.3 2021.11.19
 
 v1.4 2021.12.7 
 * 更新OC引导至0.76
-* 因本人更换BCM94360CS2 现已在此版本上移除 Intel AC3168 支持(如果有需要自己加入[Wi-Fi驱动](https://github.com/OpenIntelWireless/itlwm)、[蓝牙驱动](https://github.com/OpenIntelWireless/IntelBluetoothFirmware)以及[BlueToolFixup驱动](https://github.com/acidanthera/BrcmPatchRAM/)) 当然你也可以使用之前版本的EFI 目前来说没有什么影响
+* 因本人更换BCM94360CS2免驱网卡 现已在此版本上移除对 Intel AC3168 支持
+(如果有需要自己加入[Wi-Fi驱动](https://github.com/OpenIntelWireless/itlwm)、[蓝牙驱动](https://github.com/OpenIntelWireless/IntelBluetoothFirmware)以及[BlueToolFixup驱动](https://github.com/acidanthera/BrcmPatchRAM/)) 当然你也可以使用之前版本的EFI 目前来说没有什么影响

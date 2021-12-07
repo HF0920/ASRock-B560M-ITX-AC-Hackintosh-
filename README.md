@@ -17,12 +17,31 @@
 * 核显无法输出(B560芯片组目前无解)
 * 除此之外 我目前的功能使用 一切正常
 
-# Bios 设置
-* Advanced • CPU Configuration • CFG Lock = Disabled
-* Advanced • Chipset Configuration • Above 4G Decoding = Disabled | or Enabled
-* Advanced • Chipset Configuration • IGPU Multi-Monitor = Disabled
-* Advanced • USB Configuration • XHCI Hand-off = Enabled
-* Security • Secure Boot = Disabled
+# Bios 设置 （高级模式F6）
+* <h2>高级</h2>
+
+* <h3>CPU配置</h3>
+* CFG LOCK  关闭
+
+* <h3>芯片组配置</h3>
+* Above 4G Decoding  启用
+* VT-D  禁用
+* 共享内存  64M
+* IGPU 多监视器  开启
+ 
+* <h3>USB配置</h3>
+* XHCI Hand-off  开启
+ 
+* <h3>可信赖运算</h3>
+* Security Device Support  关闭
+* Disable Block Sid  关闭
+ 
+* <h2>安全</h2>
+* 安全启动  关闭
+
+* <h2>引导</h2>
+* 闪速启动  关闭
+* CSM  关闭
 
 # 一些小建议
 * 在V1.4版本后 我移除了对Intel网卡的支持以达到更快的启动 如果有板载无线网卡需要 可以自己加入[Wi-Fi驱动](https://github.com/OpenIntelWireless/itlwm)、[蓝牙驱动](https://github.com/OpenIntelWireless/IntelBluetoothFirmware)以及[BlueToolFixup驱动](https://github.com/acidanthera/BrcmPatchRAM/) 等后续可能更新的驱动程序

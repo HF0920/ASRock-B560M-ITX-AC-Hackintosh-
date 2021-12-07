@@ -8,12 +8,11 @@
 |  内存 |  镁光 铂胜 3200 8G * 2   |
 |  机型 |  iMac 20,1 |
 |  以太网 | Intel I219V|
-| 无线网卡 | AC3168 |
+| 无线网卡 | BCM94360CS2 |
 | 机箱及延长线 | 超频三蜂鸟2 自带延长线 |
 
 # 非正常工作
 * 麦克风输入
-* 自带蓝牙 可以连接蓝牙耳机音响等 但手动关闭后无法打开
 * 核显无法输出(B560芯片组目前无解)
 * 除此之外 我目前的功能使用 一切正常
 
@@ -26,7 +25,7 @@
 
 # 一些小建议
 * 如果您需要使用板载Wi-Fi的话可以看看 [itlwm](https://github.com/OpenIntelWireless/itlwm) 这边要求根据自己系统来选择 然后拖入kext和config即可
-* 如果需要用到 隔空投送 接力 等Apple原生功能建议搭配 拆机免驱卡 使用
+* 如果需要用到 隔空投送 接力 等Apple原生功能建议搭配 拆机免驱卡 使用 我目前使用的BCM94360CS2+延长线 体验十分完美
 * 建议开机点亮后第一件事就是重新使用OpenCore Configurator工具 生成三码 以获得更好的使用体验
 * 如果你使用了显卡延长线接显卡的话 可能遇到设置完BIOS无法点亮的问题 建议先拔下独显设置BIOS后 进入install流程前再安装独立显卡
 * 请勿使用单核显安装 目前B560主板的板载核显输出可能没有办法使用 我在系统层已经驱动了核显 并且实现了双显卡的硬件加速 但核显仍无法输出
@@ -53,3 +52,7 @@ v1.2 2021.10.3
 v1.3 2021.11.19 
 * 更新OC引导至0.75
 * 更新Lilu、AppleALC、WhateverGreen、RestrictEvents驱动为当前最新
+
+v1.4 2021.12.7 
+* 更新OC引导至0.76
+* 因本人更换BCM94360CS2 现已在此版本上移除 Intel AC3168 支持(如果有需要自己加入[Wi-Fi驱动](https://github.com/OpenIntelWireless/itlwm)、[蓝牙驱动](https://github.com/OpenIntelWireless/IntelBluetoothFirmware)以及[BlueToolFixup驱动](https://github.com/acidanthera/BrcmPatchRAM/)) 当然你也可以使用之前版本的EFI 目前来说没有什么影响
